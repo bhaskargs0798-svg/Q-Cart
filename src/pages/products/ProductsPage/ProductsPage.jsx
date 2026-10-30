@@ -1,6 +1,7 @@
 import { useProducts } from "../../../features/products/hooks/useProducts";
 import ProductCard from "../../../features/products/components/ProductCard/ProductCard";
 
+
 const ProductsPage = () => {
   const { products, loading, error } = useProducts();
 
